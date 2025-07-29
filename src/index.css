@@ -8,26 +8,41 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 25 100% 97%;
+    --foreground: 15 25% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 15 25% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 15 25% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 12 85% 55%;
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 25 85% 85%;
+    --secondary-foreground: 15 25% 25%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 25 30% 95%;
+    --muted-foreground: 25 15% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 20 75% 65%;
+    --accent-foreground: 0 0% 98%;
+
+    /* Custom restaurant colors */
+    --warm-red: 12 85% 55%;
+    --warm-orange: 25 90% 65%;
+    --warm-brown: 30 45% 35%;
+    --cream: 45 100% 95%;
+    --golden: 45 85% 75%;
+    
+    /* Gradients */
+    --gradient-warm: linear-gradient(135deg, hsl(var(--warm-red)), hsl(var(--warm-orange)));
+    --gradient-subtle: linear-gradient(180deg, hsl(var(--cream)), hsl(var(--background)));
+    
+    /* Shadows */
+    --shadow-warm: 0 10px 30px -10px hsl(var(--warm-red) / 0.3);
+    --shadow-soft: 0 4px 15px -5px hsl(var(--warm-brown) / 0.2);
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;

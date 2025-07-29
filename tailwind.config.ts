@@ -52,6 +52,12 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Custom restaurant colors
+				'warm-red': 'hsl(var(--warm-red))',
+				'warm-orange': 'hsl(var(--warm-orange))',
+				'warm-brown': 'hsl(var(--warm-brown))',
+				'cream': 'hsl(var(--cream))',
+				'golden': 'hsl(var(--golden))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
